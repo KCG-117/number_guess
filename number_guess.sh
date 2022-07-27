@@ -7,7 +7,6 @@ PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 
 # Generate value to guess during game
 RANDOM_NUMBER=$(( RANDOM % 1000 +1 ))
-echo $RANDOM_NUMBER
 
 # Ask for username
 echo 'Enter your username:'
